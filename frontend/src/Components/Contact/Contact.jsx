@@ -64,7 +64,7 @@ const Contact = () => {
             <button type="submit" className="btn dark-btn">Submit Now <img src={white_arrow} alt="" /></button>
         </form>
       <span dangerouslySetInnerHTML={{ __html: result }}></span>      </div>
-    </div>
+    </div> 
   );
 };
 
