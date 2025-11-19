@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
+        <h2>Welcome to Your University</h2>
         <h1>We Ensure better education for a better world</h1>
         <p>
           <q>Educational inequality</q> remains a significant issue, with disparities
