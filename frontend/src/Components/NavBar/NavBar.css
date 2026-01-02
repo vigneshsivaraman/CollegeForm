@@ -29,6 +29,16 @@ nav ul li{
     display: none;
 }
 
+.contact-button {
+    background: linear-gradient(90deg, #00aaff, #09e954, #00aaff);
+    background-size: 200% 200%;
+    transition: background-position 0.6s ease;
+  }
+  
+  .contact-button:hover {
+    background-position: right center;
+  }
+  
 /* media query */
 
 @media (max-width: 1000px){
