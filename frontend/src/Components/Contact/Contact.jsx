@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import msg_icon from "../../Assets/msg-icon.png";
+import msg_icon from "../../Assets/email.gif";
 import mail_icon from "../../Assets/mail-icon.png";
 import phone_icon from "../../Assets/phone-icon.png";
 import location_icon from "../../Assets/location-icon.png";
@@ -39,7 +39,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>Send us a message <img src={msg_icon} alt="" /></h3>
+        <h3>Send us a message <img src={msg_icon} style={{width:"50px",height:"50px"}} alt="" /></h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
           magni! Ullam porro non minus dolorum odit ipsa ad tempore ea?
@@ -47,7 +47,7 @@ const Contact = () => {
         <ul>
             <li><img src={mail_icon} alt="" />sample@gmail.com</li>
             <li><img src={phone_icon} alt="" />123456-7890</li>
-            <li><img src={location_icon} alt="" />1,rpa road, steve junction <br /> USA</li>
+            <li><img src={location_icon} alt="" />1,Chennai, Tamilnadu <br /> INDIA</li>
         </ul>
       </div>
       <div className="contact-col">

@@ -23,9 +23,16 @@
 
 .slider-track li {
   list-style: none;
-  flex: 0 0 50%; /* 2 cards visible at a time = 50% each */
+  flex: 0 0 50%; /* Desktop: 2 cards */
   padding: 0 10px;
   box-sizing: border-box;
+}
+
+/* ✅ Mobile: 1 card */
+@media (max-width: 768px) {
+  .slider-track li {
+    flex: 0 0 100%;
+  }
 }
 
 .slide {
@@ -105,14 +112,14 @@
     padding: 10px;
   }
   .slide img {
-    width: 50px;
+    width: 25%;
     border: 3px solid #212ea0;
   }
 }
 
 @media (max-width: 600px) {
   .user-info {
-    display: block;
+    display: flex;
     margin-bottom: 10px;
     font-size: 12px;
   }
